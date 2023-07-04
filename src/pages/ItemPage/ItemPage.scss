@@ -1,0 +1,42 @@
+@import '../../scss/common.scss';
+
+.item-page {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+    
+    .item-page__window {
+        padding: 5px 40px 25px 40px;
+        width: 80%;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        line-height: 39px;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: black 0px 0px 21px;
+        position: relative;
+        b {
+            color: $green-color;
+        }
+        .item-page__scene {
+            
+        }
+        .link__back-to-home {
+            cursor: pointer;
+            transition: 500ms ease;
+            transform: scale(2);
+            color: black;
+            position: absolute;
+            top: 17px;
+            left: 17px;
+            &:hover {
+                color: $red-color;
+                transform: scale(2.5);
+            }
+        }
+    }
+    
+}
