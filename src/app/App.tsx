@@ -14,7 +14,7 @@ const App = () => {
 
 const router = createBrowserRouter([
   {
-    path: '/web-store',
+    path: '/',
     element: <MainPage items={items} {...items[0]}/>,
     errorElement: <ErrorPage />,
   },
