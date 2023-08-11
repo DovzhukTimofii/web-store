@@ -49,3 +49,4 @@ export const ChairGrayWithPreload: React.FC = () => {
 };
 
 useGLTF.preload('../../../public/models/chairGray/scene.gltf');
+                  
