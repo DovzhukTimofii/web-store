@@ -26,7 +26,7 @@ const ItemPage: React.FC<TypeOfArgumentItemPage> = ({ items }) => {
       
         <div className='item-page__window'>
           
-          <Link to={`/`} >
+          <Link to={`/web-store/`} >
             <IoCaretBackOutline className='link__back-to-home' />
           </Link>
           

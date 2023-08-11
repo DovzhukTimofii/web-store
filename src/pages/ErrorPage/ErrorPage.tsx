@@ -8,7 +8,7 @@ const ErrorPage = () => {
 
   return (
     <div id="error-page">
-      <Link to={`/`} >
+      <Link to={`/web-store/`} >
         <h1>Beck to home page</h1>
       </Link>
     </div>
