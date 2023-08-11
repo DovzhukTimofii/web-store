@@ -16,12 +16,12 @@ const router = createBrowserRouter([
   {
     path: '/web-store/',
     element: <MainPage items={items} {...items[0]}/>,
-    errorElement: <ErrorPage />,
+    errorElement: <MainPage items={items} {...items[0]}/>,
   },
   {
     path: '/itemPage/:itemId',
     element: <ItemPage items={items} {...items[0]} />,
-    errorElement: <ErrorPage />,
+    errorElement: <ItemPage items={items} {...items[0]} />,
   }
 ])
 
