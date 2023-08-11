@@ -2,57 +2,9 @@
 
 .header {
     position: relative;
-    .close-card {
-        position: absolute;
-        right: 13px;
-        top: 10px;
-        transform: scale(2);
-        transition: transform, color, 500ms ease;
-        cursor: pointer;
-        &:hover {
-            transform: scale(2.3);
-            color: $red-color;
-        }
-    }
-    .shop-cart {
-        position: absolute;
-        top: 30px;
-        right: 0;
-        width: 450px;
-        min-height: 100px;
-        background-color: $white-color;
-        -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.57);
-        -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.57);
-        box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.57);
-        z-index: 1000;
-        padding: 20px;
-        .summa {
-            float: left;
-            width: 100%;
-            font-weight: 600;
-            font-size: 20px;
-            margin-bottom: 20px;
-        }
-        .empty {
-            h2 {
-                font-size: 20px;
-                margin-bottom: 20px;
-            }
-        }
-    }
-    .shop-cart-button {
-        float: right;
-        cursor: pointer;
-        transition: color, transform 500ms ease;
-        &:hover {
-            color: $red-color;
-        }
-        
-    }
-    .active {
-        color: $red-color;
-        transform: scale(1.5);
-    }
+    
+    
+    
     
     .logo {
         font-weight: 600;
@@ -100,6 +52,16 @@
             font-weight: 300;
             color: $white-color;
             text-align: start;
+        }
+    }
+}
+
+@media screen and (max-width: 418px) {
+    .header {
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
         }
     }
 }
